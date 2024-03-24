@@ -8,6 +8,7 @@ import Login from './pages/LoginPage';
 import Register from './pages/RegisterPage';
 import Notfound from './pages/NotfoundPage';
 import ProductDetail from './pages/ProductDetailPage/ProductDetailPage';
+import AboutPage from './pages/AboutPage';
 
 const App: React.FC = () => {
 	return (
@@ -16,10 +17,11 @@ const App: React.FC = () => {
 			<main id="main" className="container">
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/shop" element={<ProductPage />} />
-					<Route path="/shop/:productId" element={<ProductDetail />} />
+					<Route path="/product" element={<ProductPage />} />
+					<Route path="/product/:productId" element={<ProductDetail />} />
 					<Route path="/login" element={<Login />} />
 					<Route path="/register" element={<Register />} />
+					<Route path="/about" element={<AboutPage />} />
 					<Route path="*" element={<Notfound />} />
 				</Routes>
 			</main>
