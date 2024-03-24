@@ -1,11 +1,12 @@
-import React from 'react'
+import ProductList from '~/components/ProductList/ProductList';
 
-type Props = {}
-
-const ProductPage = (props: Props) => {
-  return (
-    <div>ProductPage</div>
-  )
-}
+const ProductPage = () => {
+	return (
+		<>
+			<h1>Sản Phẩm</h1>
+			<ProductList />
+		</>
+	);
+};
 
 export default ProductPage
