@@ -1,8 +1,6 @@
 import React from 'react'
 
-type Props = {}
-
-const HomePage = (props: Props) => {
+const Home: React.FC = () => {
   return (
 <div>
   <section className="cid-qwp86XJV2F mbr-parallax-background" id="header5-3h" data-rv-view={3475}>
@@ -32,4 +30,4 @@ const HomePage = (props: Props) => {
   )
 }
 
-export default HomePage
+export default Home;

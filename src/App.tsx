@@ -17,8 +17,8 @@ const App: React.FC = () => {
 			<main id="main" className="container">
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/product" element={<ProductPage />} />
-					<Route path="/product/:productId" element={<ProductDetail />} />
+					<Route path="/products" element={<ProductPage />} />
+					<Route path="/products/:productId" element={<ProductDetail />} />
 					<Route path="/login" element={<Login />} />
 					<Route path="/register" element={<Register />} />
 					<Route path="/about" element={<AboutPage />} />
